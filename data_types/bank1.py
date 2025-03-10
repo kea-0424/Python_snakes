@@ -60,22 +60,7 @@ def withdraw():
     # Debugging: Print the updated balance
     print(f"\nUpdated balance: ${balance:.2f}")
 
-# def withdraw():
-#         global balance 
-#         amount = float(input("Enter the amount you would like to withdraw: "))
 
-#         if amount < 0: 
-#              print ("That's not a valid amount")
-        
-#         elif amount > balance:
-#              print("You have insuficient funds")
-
-#         else:
-#              balance -= amount
-#              transactions.append(f"Withdrawal: -${amount:.2f}")
-#         if len(transactions) > 3:
-#             transactions.pop(0)  # Keep only the last three transactions
-#         print(f"${amount:.2f} has been withdrawn from your account.")
 
 
     # function of viewing past transctions 
