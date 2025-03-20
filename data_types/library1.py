@@ -54,10 +54,10 @@ class Member:
                     return False
                 
     def display_details(villain):
-         print(f"Member_ID: {villain.member_id}, Name: {villain.member_name}")
-         print("Borrowed Books:")
-    for book in villain.borrowed_books:
-        book.display_details()
+     print(f"Member_ID: {villain.member_id}, Name: {villain.member_name}")
+     print("Borrowed Books:")
+     for book in villain.borrowed_books:
+         book.display_details()
 
 # Create a library class
 
